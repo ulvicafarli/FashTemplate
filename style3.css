@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* main img{
+    width: 100%;
+   
+}  */
+
+main .d-block {
+    width: 570px;
+}
+
+main .btn-praducts {
+    padding: 5px;
+    width: 179px;
+    height: 46px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    left: 30%;
+    bottom: 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    box-shadow: 1px 1px 1px rgba(180, 180, 180, 0.4);
+    transition: all 0.8s;
+}
+
+main .btn-praductss:hover {
+    color: white;
+    background-color: tomato;
+    box-shadow: 1px 1px 1px rgba(180, 180, 180, 0.4);
+}
+
+main .btn-praducts:hover {
+    color: white;
+    background-color: tomato;
+    box-shadow: 1px 1px 1px rgba(180, 180, 180, 0.4);
+    transform: rotate(5px);
+    transition: all .4s;
+}
+
+main .imgformain {
+    position: relative;
+}
+
+main .productts {
+    margin-top: 50px;
+}
+
+main .sign-btn {
+    width: 180px;
+    height: 46px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: all 0.8s;
+}
+
+main .sign-btn:hover {
+    color: white;
+    background-color: tomato;
+}
+
+main .div {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    height: 340px;
+}
+
+main .div h1 {
+    font-size: 30px;
+}
+
+main .div p {
+    color: #888;
+    text-align: center;
+}
+
+main .f-product h1 {
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+main .social-icons ul {
+    list-style: none;
+    display: flex;
+    padding-left: 15px;
+}
+
+main .pro {
+    position: relative;
+    margin-top: 2em;
+}
+
+main .social-icons ul li {
+    padding-left: 15px;
+    font-size: 18px;
+    ;
+}
+
+main .social-icons ul li a {
+    color: rgb(100, 100, 100);
+}
+
+main .title ul li {
+    list-style: none;
+    line-height: 1.5em;
+}
+
+main .title h4 {
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+main .input {
+    border: none;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin-bottom: 25px;
+    width: 320px;
+}
+
+main .input::after {
+    border-bottom: 1px solid tomato;
+}
+
+main .footer-p {
+    color: rgb(143, 143, 143);
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+main .c-carts {
+    width: 34px;
+}
+
+main .mastercards {
+    padding-top: 30px;
+    padding-bottom: 26px;
+    justify-content: center;
+}
+
+main .mscards {
+    justify-content: center;
+}
+
+main footer li {
+    font-size: 15px;
+    color: rgb(158, 158, 158);
+    padding-bottom: 10px;
+}
+
+main .newslater h3,
+.touch h3 {
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+}
+
+main .touch {
+    color: rgb(161, 161, 161);
+}
+
+main .img {
+    width: 297px;
+}
+
+main .images {
+    width: 100%;
+}
+
+main .imagesforourblog img {
+    width: 100%;
+}
+
+main .bordr {
+    border-right: 1px solid rgb(214, 214, 214);
+}
+
+main .ins {
+    justify-content: center;
+    padding-top: 62px;
+    padding-bottom: 62px;
+}
+
+main .padd {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+main .padd h4 {
+    font-size: 20px;
+}
+
+main .padd p {
+    color: rgb(179, 179, 179);
+}
+
+main .padd p a {
+    color: gray;
+}
+
+main .txtforshop h4,
+.txtforshop p {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+/* main img{
+    width: 100%;
+} */
+
+main .blog-txt-h1 {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+main .blog-txt-h1 h1 {
+    display: block;
+    text-align: center;
+}
+
+main .paragrapsforourblog h3 a {
+    color: black;
+    font-size: 18px;
+    transition: all 0.8s;
+}
+
+main .paragrapsforourblog p {
+    color: rgb(126, 126, 126);
+    font-size: 15px;
+    ;
+}
+
+main .paragrapsforourblog h3 a:hover {
+    text-decoration: none;
+    color: tomato;
+}
+
+main ul {
+    margin-bottom: 0%;
+}
+
+@font-face {
+    /* download clock font: http://bootstraptema.ru/stuff/0-0-0-2478-20 */
+    font-family: "alarm clock";
+    src: url("alarm_clock.eot?") format("eot"), url("alarm_clock.woff") format("woff"), url("alarm_clock.ttf") format("truetype"), url("alarm_clock.svg#alarmclock") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+main h3,
+main a {
+    font-family: 'alarm clock';
+}
+
+main .vaxt {
+    border: none;
+}
+
+main .card {
+    padding: 10px;
+    border: none;
+}
+
+main .saat {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 0%;
+    margin-left: 20px;
+    padding: 16px;
+}
+
+main .prize main {
+    font-size: 1.1rem;
+    position: absolute;
+    top: 250px;
+}
+
+main .prz1 {
+    color: rgb(110, 110, 110);
+    left: 46%;
+}
+
+main .prz2 {
+    color: tomato;
+    left: 54%;
+}
+
+main .clas-a {
+    font-size: 17px;
+    color: rgb(143, 143, 143);
+    letter-spacing: 1px;
+    position: absolute;
+    left: 37%;
+    bottom: 40%;
+    transition: all 0.8s;
+}
+
+main .clas-a:hover {
+    font-size: 17px;
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+}
+
+main .clock {
+    position: absolute;
+    bottom: 11%;
+    left: 27%;
+}
+
+main .img-sunglasses {
+    position: relative;
+}
+
+main .imgformain {
+    transition: all 2s;
+    width: 100%;
+}
+
+main .imgformain:hover {
+    transform: scale(1.1);
+    width: 100%;
+}
+
+main .img-for-blog {
+    transition: all 0.8s;
+}
+
+main .img-for-blog:hover {
+    transform: scale(1.1);
+}
+
+main .img-girl {
+    width: 120%;
+    transition: all 0.8s;
+}
+
+main .img-girl:hover {
+    transform: scale(1.1);
+}
+
+main input {
+    outline: none;
+}
+
+.css-animations span {
+    position: relative;
+    color: white;
+    margin-top: 50px;
+}
+
+.css-animations {
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    right: 40%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    /* padding: 2em; */
+}
+
+.btnn {
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition: all 0.8s;
+    margin-top: 2em;
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    right: 44%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    animation-delay: 1s;
+    transition: all 1s;
+}
+
+.btnn:hover {
+    color: white;
+    background-color: tomato;
+}
+
+.bigger-span {
+    font-size: 70px;
+    z-index: 1;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    right: 37%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid black;
+    animation-delay: 1s;
+    transition: all 1s;
+}
+
+.little-span {
+    color: rgb(179, 179, 179);
+    font-size: 20px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: 40%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    animation-delay: 1s;
+    transition: all 1s;
+}
+
+.imge-girl {
+    width: 100%;
+    transition: all 0.4s;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.imge-girl:hover {
+    transform: scale(1.1);
+    padding: 0px;
+}
+
+.imag-sunglasses {
+    transition: all 0.4s;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+}
+
+.imag-sunglasses:hover {
+    transform: scale(1.1)
+}
+
+.prize {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    width: 50%;
+}
+
+main div {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.inimageformain {
+    margin-top: 100px;
+}
+
+.owerfh {
+    overflow: hidden;
+    padding: 0pt;
+    /* margin: 3%; */
+    width: 50%;
+}
+
+.owerfh img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    background-color: rgb(243, 243, 243);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.p-abss {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.p-abss span {
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 5px;
+}
+
+.p-abss h2 {
+    font-size: 50px;
+}
+
+.p-abss a {
+    border-bottom: 1px solid white;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.glassgirl {
+    background-image: url(/IMG/bg-banner-02.jpg);
+    background-position-x: 40%;
+    margin-top: 100px;
+}
+
+.owerfh {
+    margin-top: 50px;
+    padding: 2em;
+}
+
+main .our-product-h1 {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+main .our-product-nav-center {
+    text-align: center;
+}
+
+main .cart {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+main .cart a {
+    color: #5a5a5a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    transition: all 0.8s;
+}
+
+main .cart a:hover {
+    text-decoration: none;
+    color: tomato;
+}
+
+main .cart span {
+    color: #505050;
+    font-size: 18px;
+}
+
+main .cart img {
+    overflow: hidden;
+}
+
+main .nav {
+    padding-bottom: 2em;
+    border: none;
+    margin-left: 30%;
+}
+
+main .nav li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+main .nav li a {
+    color: #888;
+    transition: all .4s;
+}
+
+main .nav li a:hover {
+    color: black;
+}
+
+header .icon-header {
+    padding: 2em;
+    margin-top: 0.6em;
+    margin-left: 20%;
+}
+
+header .icon-header>img {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header .border-right {
+    border-right: 1px solid rgb(206, 206, 206);
+}

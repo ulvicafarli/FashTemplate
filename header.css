@@ -1,0 +1,171 @@
+body {
+    outline: none;
+}
+
+
+/* headerrr */
+
+.topbar .sociall {
+    display: flex;
+    list-style: none;
+}
+
+.topbar .sociall li {
+    padding: 10px;
+}
+
+.topbar .sociall li a {
+    font-size: 18px;
+    color: #888;
+}
+
+.topbar .p p {
+    color: #888;
+    line-height: 1.7;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.topbar {
+    height: 45px;
+    background-color: #f5f5f5;
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar .a {
+    padding: 10px;
+    color: #888;
+}
+
+.topbar #val {
+    border: none;
+    margin-top: 10px;
+}
+
+header .logo {
+    padding: 1.1em;
+}
+
+header .menu {
+    display: flex;
+    padding: 1.1em;
+    list-style: none;
+    margin-left: 20%;
+}
+
+header .menu li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header .menu li a {
+    color: rgb(65, 65, 65);
+    font-size: 1em;
+}
+
+header .icon-header {
+    padding: 1em;
+    margin-top: 0.6em;
+}
+
+header .icon-header>img {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header .border-right {
+    border-right: 1px solid rgb(206, 206, 206);
+}
+
+header #active {
+    color: tomato;
+    z-index: 1;
+}
+
+header ul {
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+
+/* headerrr */
+
+header #home123 {
+    /* transition: all 0.4s; */
+    visibility: hidden;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 21221005;
+    width: 300%;
+    background-color: rgb(49, 49, 49);
+    padding: 0.2em;
+}
+
+header #home123 li {
+    padding: 0.6em;
+}
+
+header #home123 li a {
+    color: white;
+    font-size: 14px;
+}
+
+header #home123 li a:hover {
+    text-decoration: none;
+    color: tomato;
+    transition: all 0.4s;
+}
+
+header #home {
+    position: relative;
+}
+
+header #home:hover #home123 {
+    visibility: visible !important;
+}
+
+.respnsive-header i {
+    font-size: 30px;
+}
+
+.respnsive-header .menu-icns {
+    text-align: right;
+}
+
+.respnsive-header img {
+    padding: 5px;
+}
+
+@media only screen and (min-width: 950px) {
+    .respnsive-header {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    header {
+        display: none;
+    }
+    .topbar {
+        display: none;
+    }
+    .respnsive-header {
+        background-color: white;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+        z-index: 9199;
+    }
+}
